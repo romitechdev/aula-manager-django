@@ -1,38 +1,38 @@
 # Aula Manager
 
-Aula Manager adalah aplikasi web fullstack yang dirancang untuk memudahkan pengelolaan pemesanan ruangan. Aplikasi ini memiliki berbagai fitur yang memungkinkan pengguna untuk melakukan pemesanan, pembayaran, dan pengelolaan data ruangan dengan mudah.
+Aula Manager is a fullstack web application designed to make room booking management easier. The application provides a range of features that allow users to easily make bookings, process payments, and manage room data.
 
-## Fitur
+## Features
 
-1. **Tampilan Awal**: Halaman utama yang menyambut pengguna dengan informasi dasar tentang aplikasi.
-2. **Tampilan About**: Menyediakan informasi tentang aplikasi dan tujuan pengembangannya.
-3. **Tampilan Jadwal Ruangan**: Menampilkan jadwal ketersediaan ruangan yang dapat dipesan.
-4. **Tampilan Contact**: Halaman untuk menghubungi pengelola aplikasi.
-5. **Tampilan Pemesanan Ruangan**: Formulir untuk melakukan pemesanan ruangan.
-6. **Tampilan Pembayaran**: Fitur untuk memproses pembayaran pemesanan ruangan.
-7. **Tampilan untuk Mengedit/Menghapus Pesanan**: Memungkinkan pengguna untuk mengelola pesanan yang telah dibuat.
-8. **Tampilan Dashboard Admin**: Halaman khusus untuk admin yang memungkinkan pengelolaan data dan pemantauan aktivitas aplikasi.
+1. **Home Screen**: The main page that welcomes users with basic information about the application.
+2. **About Screen**: Provides information about the application and its development goals.
+3. **Room Schedule Screen**: Displays the availability schedule of rooms that can be booked.
+4. **Contact Screen**: A page for contacting the application administrators.
+5. **Room Booking Screen**: A form for booking a room.
+6. **Payment Screen**: A feature for processing room booking payments.
+7. **Edit/Delete Booking Screen**: Allows users to manage bookings that have been created.
+8. **Admin Dashboard Screen**: A dedicated page for admins that enables data management and monitoring of application activity.
 
 
 
-## Cara Meng-clone dan Menjalankan Aplikasi
+## How to Clone and Run the Application
 
-1. **Clone Repositori**
-   Buka terminal dan jalankan perintah berikut untuk meng-clone repositori ini:
+1. **Clone the Repository**
+   Open a terminal and run the following command to clone this repository:
    ```bash
    git clone https://github.com/romiwebdev/aula-manager-django.git
    
-2. **Masuk ke Direktori Proyek Setelah proses cloning selesai, masuk ke direktori proyek:**
-    ```bash
-    cd aula-manager-django
-    
-3. **Instalasi Dependensi Pastikan Anda telah menginstal Python dan pip. Kemudian, instal dependensi yang diperlukan dengan menjalankan:**
-    ```bash
-    pip install -r requirements.txt
-    
-4. **Menjalankan Aplikasi Setelah semua dependensi terinstal, Anda dapat menjalankan aplikasi dengan perintah:**
-    ```bash
-    python manage.py runserver 
-    
-5. **Akses Aplikasi**
-    Buka browser dan masukkan URL http://127.0.0.1:8000/ untuk mengakses aplikasi Aula Manager.
+2. **Enter the Project Directory After the cloning process is complete, enter the project directory:**
+   ```bash
+   cd aula-manager-django
+   
+3. **Install Dependencies Make sure you have Python and pip installed. Then, install the required dependencies by running:**
+   ```bash
+   pip install -r requirements.txt
+   
+4. **Run the Application Once all dependencies are installed, you can run the application with:**
+   ```bash
+   python manage.py runserver 
+
+5. **Access the Application**
+   Open your browser and enter the URL http://127.0.0.1:8000/ to access the Aula Manager application.
