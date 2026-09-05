@@ -36,3 +36,7 @@ Aula Manager is a fullstack web application designed to make room booking manage
 
 5. **Access the Application**
    Open your browser and enter the URL http://127.0.0.1:8000/ to access the Aula Manager application.
+
+<!-- last-updated -->
+_Last updated: 2026-09-05_
+
